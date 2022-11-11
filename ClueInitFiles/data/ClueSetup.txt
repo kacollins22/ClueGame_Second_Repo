@@ -1,0 +1,30 @@
+//Rooms and room cards
+Room, Makerspace, M
+Room, Blasters Brew, B
+Room, Study Space, S
+Room, Lecture Hall 1, L
+Room, Lecture Hall 2, H
+Room, Office, O
+Room, Lounge, G
+Room, Lab, A
+Room, Bathroom, R
+
+//Other spaces on the board
+Space, Unused, X
+Space, Walkway, W
+
+//People
+Person, Colonel Mustard, YELLOW
+Person, Mrs. White, WHITE
+Person, Mrs. Peacock, BLUE
+Person, Miss Scarlet, RED
+Person, Reverend Green, GREEN
+Person, Professor Plum, PURPLE
+
+//Weapons
+Weapon, Candle
+Weapon, Revolver
+Weapon, Wrench
+Weapon, Rope
+Weapon, Pipe
+Weapon, Dagger

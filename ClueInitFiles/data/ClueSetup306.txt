@@ -1,0 +1,27 @@
+// Rooms and room cards
+Room, Conservatory, C
+Room, Kitchen, K
+Room, Ballroom, B
+Room, Billiard Room, R
+Room, Library, L
+Room, Study, S
+Room, Dining Room, D
+Room, Lounge, O
+Room, Hall, H
+// other spaces on board
+Space, Unused, X
+Space, Walkway, W
+//People
+Person, Colonel Mustard, YELLOW
+Person, Mrs. White, WHITE
+Person, Mrs. Peacock, BLUE
+Person, Miss Scarlet, RED
+Person, Reverend Green, GREEN
+Person, Professor Plum, PURPLE
+//Weapons
+Weapon, Candle
+Weapon, Revolver
+Weapon, Wrench
+Weapon, Rope
+Weapon, Pipe
+Weapon, Dagger
