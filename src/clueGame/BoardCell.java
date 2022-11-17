@@ -1,9 +1,14 @@
 package clueGame;
 
 import java.util.Set;
+
+import javax.swing.JPanel;
+
+import java.awt.Color;
+import java.awt.Graphics;
 import java.util.HashSet;
 
-public class BoardCell {
+public class BoardCell extends JPanel{
 	
 	private int row;
 	private int col;
@@ -33,6 +38,15 @@ public class BoardCell {
 		this.row = row;
 		this.col = col;
 	}
+	
+	public int getRow() {
+		return row;
+	}
+	
+	public int getCol() {
+		return col;
+	}
+	
 	//Getter and setter for cell initial
 	public void setInitial(char c) {
 		this.initial = c;
@@ -97,5 +111,48 @@ public class BoardCell {
 	}
 	public void setRoom() {
 		this.isRoom = true;
+	}
+	
+	public void draw(Graphics g, int xOffset, int yOffset, int width, int height) {
+		//Handles the drawing of a walkway tile.
+		if (initial == 'W') {
+			g.setColor(new Color(255,255,150));
+			g.drawRect(xOffset + 2, yOffset + 2, width - 4, height - 4);
+			
+			if(doorDirection == DoorDirection.DOWN) {
+				g.setColor(new Color (150,255,150));
+				g.drawLine((xOffset + 2), (yOffset + 2), (xOffset + (width - 2)/2), (yOffset + height - 2));
+				g.drawLine((xOffset + width - 2), (yOffset + 2), (xOffset + (width - 2)/2), (yOffset + height - 2));
+				g.drawLine((xOffset + 2), (yOffset+2), (xOffset+width-2), (yOffset+2));
+			}
+			else if (doorDirection == DoorDirection.RIGHT) {
+				g.setColor(new Color (150,255,150));
+				g.drawLine((xOffset + 2), (yOffset + 2), (xOffset + width - 2), (yOffset + (height - 2)/2));
+				g.drawLine((xOffset + 2), (yOffset + height - 2), (xOffset + width - 2), (yOffset + (height - 2)/2));
+				g.drawLine((xOffset + 2), (yOffset + 2), (xOffset + 2), (yOffset + height - 2));
+			}
+			else if (doorDirection == DoorDirection.UP) {
+				g.setColor(new Color (150,255,150));
+				g.drawLine((xOffset + 2), (yOffset + height - 2), (xOffset + (width - 2)/2), (yOffset + 2));
+				g.drawLine((xOffset + width - 2), (yOffset + height - 2), (xOffset + (width - 2)/2), (yOffset + 2));
+				g.drawLine((xOffset + 2), (yOffset + height - 2), (xOffset + width - 2), (yOffset + height - 2));
+			}
+			else if (doorDirection == DoorDirection.LEFT) {
+				g.setColor(new Color (150,255,150));
+				g.drawLine((xOffset + width - 2), (yOffset + 2), (xOffset + 2), (yOffset + (height - 2)/2));
+				g.drawLine((xOffset + width - 2), (yOffset + height - 2), (xOffset + 2), (yOffset + (height - 2)/2));
+				g.drawLine((xOffset + width - 2), (yOffset + 2), (xOffset + width - 2), (yOffset + height - 2));
+			}
+		}
+		else if (initial != 'X') {
+			g.setColor(new Color(124,133,146));
+			g.drawRect(xOffset, yOffset, width, height);
+			g.fillRect(xOffset, yOffset, width, height);
+		}
+	}
+	
+	public void drawLabel(Graphics g, int xOffset, int yOffset, String label) {
+		g.setColor(new Color(0,200,200));
+		g.drawString(label,xOffset - 25,yOffset + 10);
 	}
 }

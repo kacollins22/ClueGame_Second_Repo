@@ -1,5 +1,7 @@
 package clueGame;
 
+import java.awt.Color;
+import java.awt.Graphics;
 import java.util.ArrayList;
 
 public class HumanPlayer extends Player{
@@ -37,5 +39,25 @@ public class HumanPlayer extends Player{
 	
 	public String getName() {
 		return super.getName();
+	}
+	
+	public String getColor() {
+		return super.getColor();
+	}
+	
+	public ArrayList<Card> getHandType(CardType type){
+		return super.getHandType(type);
+	}
+	
+	public ArrayList<Card> getSeenType(CardType type){
+		return super.getSeenType(type);
+	}
+	
+	public Color colorStringToColor() {
+		return super.colorStringToColor();
+	}
+	
+	public void drawPlayer(Graphics g, int width, int height) {
+		super.drawPlayer(g, width, height);
 	}
 }

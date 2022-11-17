@@ -1,0 +1,713 @@
+I, Kyle Collins, certify that I participated equally in the creation of assignment C22A-2, dated 2022.
+I, Kale Cassidy, certify that I participated equally in the creation of assignment C22A-2, dated 2022.
+
+commit 241c51eb0545027c753a5052b38589006ec2dc5c
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Tue Nov 15 22:38:05 2022 -0700
+
+    Made Player Colors Work
+    
+    Also cleaned up the function a bit in general.
+
+commit 81d75304ab52214d508483abd7f6f828a0c16d24
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 15 22:01:13 2022 -0700
+
+    Added player draws and positions, colors not yet working.
+
+commit 3904a1e778d648cff59a52a1996a2685d89d1416
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Tue Nov 15 13:30:11 2022 -0700
+
+    Made Labels Print
+    
+    Labels now print over their rooms.
+
+commit 2e7e9a2b46c4dd7a4f5638796520a5858f7d59f2
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 15 13:19:25 2022 -0700
+
+    Added getter and setters for BoardCell to replace complicated arrays
+
+commit b8c6c8a6ca94aff56a8964141e94633529bc7704
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 15 12:43:20 2022 -0700
+
+    Added skeleton for label draws
+
+commit eee88937b105265d169cc89f2e92e3af757fead9
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Tue Nov 15 12:14:54 2022 -0700
+
+    Made doors draw themselves in
+    
+    Doors now are drawn! Life is good.
+
+commit 11a453a114bd185800534f8f5dfb30af25a6649d
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 14 17:36:02 2022 -0700
+
+    Changed color format to something cool
+
+commit aca60bf127268efb146238a2469dec018def036b
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 14 17:28:04 2022 -0700
+
+    Rooms now show
+
+commit df1bd3dccb10ac5c9184e9b8a7d744a9f99be25c
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 14 17:12:18 2022 -0700
+
+    Changed the color of the tiles
+
+commit 615082dadde0d0a8e683c1bc3050962ee436c7e4
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 14 17:11:55 2022 -0700
+
+    Added black background
+
+commit a44d50bf05014414d99982f9af2692fbc7ff4876
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 14 17:03:19 2022 -0700
+
+    Messed with things for graphics
+    
+    Board and ClueGame had a couple numbers changed to make the board array look nice.
+
+commit e1c8582b89f54538654610445074016dddf90cf9
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 14 16:54:18 2022 -0700
+
+    Added fillrect
+
+commit 309800fe7ff8de9054f259b55a64d9076216f9ec
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 14 16:52:08 2022 -0700
+
+    Reordered draw functions to work with function call
+
+commit ed4452f71e0bb495efb5d536b70eb29c1c6ec425
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 14 16:44:43 2022 -0700
+
+    Made panels display in ClueGame
+    
+    The silly thing is that just by doing that, we've now earned 60% of the points on the assignment.
+
+commit 787cfdd3f394eb76207f1269f51e53bd6cba19bd
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 14 16:42:50 2022 -0700
+
+    Added draw loop for boardcells in board
+
+commit f83fb85ef224207fc87602ebd9d49b96cd61df24
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 14 16:29:32 2022 -0700
+
+    Added draw skel in Board and BoardCell
+
+commit 3fecd81919e6dd47aac5fe13e8f14b3b0752c061
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 14 16:28:12 2022 -0700
+
+    Created ClueGame, started work.
+    
+    Also, roll credits.
+
+commit df4319069b40c96ea5e26365bb62abde6cf57946
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 14 16:05:01 2022 -0700
+
+    Removed isEmpty as we can check using initial.
+
+commit 98b81941151fe9f4958d04715dae44d0e520b762
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 14 15:58:41 2022 -0700
+
+    Added isEmpty for unused spaces
+
+commit 941583f75d9537f8dcd8beb8f2dc5f3720bbcc15
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 14 15:55:02 2022 -0700
+
+    Made Board a JPanel subclass
+    
+    Begun the setup for drawing the board.
+
+commit 254d02bff51d1a6941ed7393b6f2825f3d2096ef
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 14 15:44:41 2022 -0700
+
+    Submission Components from C22A2 Added
+    
+    Added a gitlog.txt file in order to meet last assignment's submission purposes. This is a part of assignment  C23A.
+
+commit 05812ddccb526af7b2c7c8af1d851dc077aae584
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 11 22:57:10 2022 -0700
+
+    Made GameCardPanel update properly
+
+commit 20f413242e117cdc63577f1102612beb62b26169
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 11 17:50:02 2022 -0700
+
+    Updated ClueCardPanel
+    
+    Still trying to figure out how to update it, though.
+
+commit 8de53180d930e40e8587ae24c5f04c4e1ea2d0a2
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 11 17:34:04 2022 -0700
+
+    Got Card Panel almost fully functional
+
+commit 6c042b236ba3bda7d4063aa977678fad1d2ed029
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 11 16:52:06 2022 -0700
+
+    Added functionality to return specific CardTypes form player hand and seenCards
+
+commit eeab56d517a826fcdc089be0ad55effea0b7d56f
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 11 16:51:03 2022 -0700
+
+    Continued to make the card panel work
+
+commit b6d4f86ba5e94527c4eda7719311ff729f7e985f
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 11 16:42:16 2022 -0700
+
+    Made GameCardPanel Functional
+    
+    The functionality is incredibly bare bones, but it's functional!
+
+commit 740ddb372090fc3d3aea2ef4debab9b52baacac2
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 11 16:31:05 2022 -0700
+
+    Created GameCardPanel skeleton
+
+commit 26818b51ec9f580578f903c510752dbf2eec4d71
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 10 16:45:34 2022 -0700
+
+    Made things look nice
+    
+    Updated the visual look of the Game Control Panel. Everything looks better now!
+
+commit b88d17f31085f4d8cce6f438361ce10bfe11daeb
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 10 15:48:36 2022 -0700
+
+    Finished a functional control panel
+    
+    Finished the control panel - all setters are functional, all elements are there, and everything works as intended for now.
+
+commit ced148166d3c3fd3c8331f005b0af96932d45fca
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Thu Nov 10 12:17:08 2022 -0700
+
+    Added getName method for player and subclasses
+
+commit b8b22c36e4022f3f9379a7f00f0d0b898ec4df9a
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 10 12:16:33 2022 -0700
+
+    Made minor visual tweaks and added some functionality
+
+commit aec85ebdb8e712fda25fc4f5bb27e30d297b590e
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 10 12:05:55 2022 -0700
+
+    Finished Top Row Rough Draft
+
+commit da38176b2b42478fdbec5a27f37ac4e76ce26bac
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 10 11:48:10 2022 -0700
+
+    implemented createBottomRow
+
+commit 5c64d3495cafe56a75de19b5e4ba4ba768af9ded
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 10 11:44:19 2022 -0700
+
+    Fleshing out GameControlPanel Skeleton
+
+commit 04658ffc0508f895ca975791d78d16fb5bef40ae
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 10 11:26:29 2022 -0700
+
+    Created GameControlPanel skeleton
+    
+    Also made a slight tweak to ComputerPlayer's constructor for readability.
+
+commit e259d54eb62944080376d3af37a94e8e06dc528e
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 10 11:18:50 2022 -0700
+
+    Made the disproveSuggestion test more liberal
+    
+    The test would occasionally fail before due to random chance. It's now far, far less likely to.
+
+commit 061d2bde17b5fb6696903af02f5a11b8af7c783f
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 8 20:21:07 2022 -0700
+
+    Some tests locations were not testing proper locations,  once fixed, code ran without error
+
+commit c7bc2ee4877c925a3ef73de2d911e4cb070f47cf
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 8 20:10:19 2022 -0700
+
+    Added working make suggestion function and changed tests to check against exitsing objects and not new ones that are not comparable
+
+commit 3351fb5d0fd6f81e8592b2f9670271c233d5b500
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 8 18:53:04 2022 -0700
+
+    Both tests for AI now fail
+
+commit 82f8a1b66bc4a5acc330f959eb238b478ac1a9cd
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 8 18:15:26 2022 -0700
+
+    Added changes to test file as test file format was unreceptive to existing methods
+
+commit e35721b726157123b062a4aea48b76e0294fa466
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 8 17:57:28 2022 -0700
+
+    Added working functionality for selectTargetTest and created select target function in ComputerPlayer
+
+commit f434e669aae3d1928cc72faa7c8ace6b3d0a76de
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Tue Nov 8 12:47:57 2022 -0700
+
+    Commented movement tests
+
+commit ad387311b6ff830bf7ed6213e34341ee25477770
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Tue Nov 8 12:20:01 2022 -0700
+
+    Added createSuggestionTest, commented movement tests
+
+commit e95166c0258806e6212f916f155404604e97cd34
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 8 12:13:31 2022 -0700
+
+    Changed randomness test to check that selection switches between the two
+
+commit d40e50a083132130ba0653246064536d21ccf569
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 8 12:10:15 2022 -0700
+
+    Added disprove suggestion functionality
+
+commit 51be27d5bd1adc98dd7c0093d795c5351e2eb737
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Tue Nov 8 11:53:57 2022 -0700
+
+    Added selectTargetTest
+
+commit af8e556380ab4d5e395b2ff752d78e48fc7941b3
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 7 21:48:20 2022 -0700
+
+    Created ComputerAITest
+    
+    Began work on the computerAITest. Given that I am not feeling great, it's less than I'd like, but... its something!
+
+commit ab8a9cedeab5d345702bae218cb90dcfaafcd9fb
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 7 15:36:06 2022 -0700
+
+    Changed disprove suggestion to accept 3 card types
+
+commit faa455ef9d2b5778dd5760eb6385362405864f6a
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 7 15:31:31 2022 -0700
+
+    Added disproveSuggestion() in Player and added people and weapons to ClueSetup306.txt
+
+commit 67c8482d505cf35ea82d715ecb701f6099415559
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Nov 7 15:25:09 2022 -0700
+
+    Added accusation check and put deal() in initailize
+
+commit d527e9ad70ec6a0144585ff97db2cc9daecb0d5f
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 7 15:23:07 2022 -0700
+
+    Revert "Created ComputerAITest Skeleton"
+    
+    This reverts commit 4acc8f8dd413a256c6814edd59e36ff636e2d50e.
+
+commit 4acc8f8dd413a256c6814edd59e36ff636e2d50e
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 7 15:20:26 2022 -0700
+
+    Created ComputerAITest Skeleton
+
+commit 95074ab3393b4bdb85fb24016fd1d497c664815d
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 7 14:45:28 2022 -0700
+
+    Completed disproveSolution test
+
+commit 2af95b0e92431ed2a32c712482d1a2c50d2c0b10
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Mon Nov 7 13:50:01 2022 -0700
+
+    Begun work on making tests
+    
+    Created the GameSolutionTest class and added a couple of tests. Still working on it, though.
+
+commit 97a8f9dfdb12a9b73d0c6f0f4f52d91a93f5580f
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 21:54:12 2022 -0600
+
+    Updated GameSetupTests
+    
+    Added a few more tests to ensure that the deck is being created properly.
+
+commit 39e3c47d7a7e7c6d2356188ce3bd2f9cc5227c8b
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 21:44:00 2022 -0600
+
+    Fixed issue with deal() where dealDeck was removing the wrong Cards after setting theAnswer
+
+commit 5833044a7afa9b2c9751e5aa6be1b85dc8ac9be9
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 21:36:13 2022 -0600
+
+    Updated the GameSetupTests
+    
+    Made most tests pass, including all size tests for the cards. Still working on card equality tests.
+
+commit e50b0ccd3f6e8e46ea97cc634596894d892fea55
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 21:26:32 2022 -0600
+
+    We are now loading the right files.
+    
+    Who knew that'd change so much??
+
+commit ac18587b9c21d80c07caf24fb41313286cd72c51
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 21:00:32 2022 -0600
+
+    Commenting Solution
+
+commit f137dc7d4f53840cc4622aeaf5860d27d0c166c7
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 20:58:19 2022 -0600
+
+    Share Commit
+
+commit 53a0c71b73ed34c11a0bcd0b108836ac5cdacf76
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 20:46:35 2022 -0600
+
+    Added better functionality for Player and Child Classes
+
+commit e8581e657095180d86989415a73230f2474dbb3f
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 19:50:02 2022 -0600
+
+    Made deal() function and changed all Set<Card> to ArrayList<Card>
+
+commit 47fa8f697fd63beb56ece591f7ce4050c2beaf3b
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 17:41:45 2022 -0600
+
+    Forgot save before previous commit
+
+commit 9876dd8c7d7f8a9f8884372fd2ac440dd1f3d8a7
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 17:39:01 2022 -0600
+
+    Added theAnswer initialization
+
+commit fc53050341d4f56fef6590efa7afcc49e596cb1f
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 17:17:43 2022 -0600
+
+    Added Stetup for Cards in deck
+
+commit 483baf6e70b42df9aa7c7bc51a97c6c3cec57cfb
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 17:00:17 2022 -0600
+
+    Added people and Weapons to ClueSetup.txt
+
+commit c2e5617937e861d2e9293251b9a202603eefe3c7
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 16:54:04 2022 -0600
+
+    Fixed GameSetupTests (mostly)
+    
+    Got GameSetupTests most of the way towards functioning!
+
+commit a2f04857593239bc2c835bd9516ae103aa949e97
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Nov 4 16:44:54 2022 -0600
+
+    Added Solution functionality
+
+commit 78e2481c684d4268abfee4d37c4239bd0a9be865
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 16:42:49 2022 -0600
+
+    Made Getters and Updated Setup Tests
+
+commit e6afe38f8fc78aec803bea24275485d33ceb0404
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 16:35:15 2022 -0600
+
+    Made the Test Methods Tests
+    
+    Added the @Test line in a few places. My bad.
+
+commit 9be3bc34b68fd6f2cdd20b789c446d9316ecb784
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 16:33:42 2022 -0600
+
+    Updated GameSetupTests
+    
+    Got rid of an unnecessary and badly coded test. Another test was covering what that one was testing for, anyways.
+
+commit 0a95c26d21817416f02856577c23baa6c5e44fe6
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Fri Nov 4 13:03:53 2022 -0600
+
+    Updated GameSetupTests
+    
+    Added 5 tests to GameSetupTests. They currently error due to unimplemented methods.
+
+commit 31fbebd27d8cc80ee706803de4d59eb54f220d58
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 3 12:15:12 2022 -0600
+
+    Setting Up All Tests
+
+commit 88ab8e4d0019e3b04b4adb7aa870e643f8b13d14
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Thu Nov 3 12:14:11 2022 -0600
+
+    Added connections between functions from UML
+
+commit 5b53e992807ddf7ac4a78f0368dde6c1de7ff603
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Thu Nov 3 11:42:22 2022 -0600
+
+    Modified Card for working functionality
+
+commit fbba29cc02383038fc08cd2a0d4a7aacd4e4272e
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Thu Nov 3 11:39:28 2022 -0600
+
+    Created GameSetupTests Skeleton
+    
+    Made a skeleton class for the GameSetupTests jUnit class. Though not finished yet, it's a start.
+
+commit 22cfd16104015363b581ac8860292971ff60d7a5
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 1 12:15:07 2022 -0600
+
+    Added Player abstract class and Human and Computer child classes
+
+commit 383942f9def6764cb595477f3533fd82784821a6
+Author: kacollins22 <kacollins@mines.edu>
+Date:   Tue Nov 1 12:10:10 2022 -0600
+
+    Updated .classpath and .project
+
+commit 0186eca70310a1640fd2e0c83ca4d00c09db681d
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 1 12:01:41 2022 -0600
+
+    Added Solution skeleton
+
+commit c78e8444fe8635a73df40d636364c54ca2687d0c
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 1 11:56:41 2022 -0600
+
+    Added .gitignore
+
+commit 95224cf9d438a2095ce07c363101bc09197875e2
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 1 11:54:20 2022 -0600
+
+    Added enumerated CardType and gave Card a private var of CardType
+
+commit 2a6a76ea1f3fb336ce5411e1513fdc1191094d42
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Nov 1 11:50:31 2022 -0600
+
+    Added Card skeleton
+
+commit 8be74b45def1e74343de3b109ddbf30e20e89b43
+Merge: eb085d8 81e879f
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 31 13:46:56 2022 -0600
+
+    removed gitignore
+
+commit eb085d8ab08c687b078188af98cd84ac82f08dae
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 31 13:30:57 2022 -0600
+
+    fixed .gitignore
+
+commit 81e879fcc51f0674ffa709967aba3688dd219892
+Author: KaleTrails <114514555+KaleTrails@users.noreply.github.com>
+Date:   Mon Oct 31 13:17:45 2022 -0600
+
+    Initial commit
+
+commit 8a2d39e56d9929fc40b4fb5c046bbd2b0dcd6c3d
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 24 19:25:28 2022 -0600
+
+    Added comments to Room class
+
+commit 31856e78e84b99d1404dae09ac354e1a60d3f66a
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 24 19:22:12 2022 -0600
+
+    Added comments and sorted functions for BoardCell
+
+commit 57cfb21c5e1c01a87343cfaf4d819c0e63bd933d
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 24 19:06:08 2022 -0600
+
+    Improved generateAdjacencies readablility by adding comments and making more efficient use of functions.
+
+commit 5b27a2379dd48d768c29c55a69f266371f76484b
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 24 17:53:43 2022 -0600
+
+    Added comments, better vairable names, and function calls to loadLayoutConfig
+
+commit 39205a5b590eb7bd8644fe4e78aa144535543c80
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 24 17:30:59 2022 -0600
+
+    Added comments and readable variables to loadSetupConfig
+
+commit 8471fac21b4e5bf4fe76c06361b9d145f9666446
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 24 17:16:20 2022 -0600
+
+    Added general function descriptions
+
+commit 4b556ce5686b8fbf13a22b25dbdfc934d9984d7e
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 24 16:13:03 2022 -0600
+
+    Created separate function to call adjacency generation
+
+commit 75d7fdb59abbd989cd6a146f4ef992b861a3ca1c
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Thu Oct 20 03:52:18 2022 -0600
+
+    Added working targeting code and passed tests
+
+commit 95a8bce528a6acd6736bc48d5ce81b0da38dd487
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Wed Oct 19 23:46:45 2022 -0600
+
+    Added target tests so that they fail and not error.
+
+commit 69a367817abd264949d90a9d929c9e9797bfa4b2
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Wed Oct 19 21:50:01 2022 -0600
+
+    Added adjeacency tests
+
+commit 29fbef1f40d90668021ea2a6d3643a8b72745929
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Wed Oct 19 17:09:22 2022 -0600
+
+    All tests for BoardAdjTargetTest306 now fail, instantiated adj list every time Boardcell is created.
+
+commit eb9efd8f64486970bf05386f3d007f8574112a41
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Wed Oct 19 16:47:58 2022 -0600
+
+    Added AjdTest306 and added implementations for needed methods
+
+commit 9d41d4f8d8a315ee8acd42176aa39b9aca130993
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Sat Oct 15 23:40:57 2022 -0600
+
+    Completed Working tests and corrected mistakes on initial test setups.  Added full config for setup and layout. Changed methods and created new ones for correct inputs and outputs.
+
+commit c8f9f01f543adb723bdfa0e5fe64cdd9c0ceda8d
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Tue Oct 11 12:16:21 2022 -0600
+
+    Started test correction
+
+commit 146dcd6d10b79a4f547591e4adb07425a64bcde0
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 10 20:01:04 2022 -0600
+
+    Finished FileInitTest, added 6 tests - Kale and Tessa
+
+commit 45efa9de428647e308347afb1f716d149dda138f
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 10 18:06:58 2022 -0600
+
+    Added functionality to Classes and added 2 tests
+
+commit d1eeccbf8ab1e05690c8069712c4110275f3a88d
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 10 17:02:59 2022 -0600
+
+    Added C13A2 Files
+
+commit a43e297050136a3f17f8fb16ced50d56c4f1a82f
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 10 16:46:57 2022 -0600
+
+    Added Comments - Kale
+
+commit e05e620688674eeff52b1561df4521d0230db685
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Mon Oct 10 16:39:51 2022 -0600
+
+    Completed Tests to work properly -Kale and Tessa
+
+commit b213fb4048ae27d505d7fcb7d94e45447e0b36ac
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Fri Oct 7 18:01:14 2022 -0600
+
+    Kale/Tessa - Set Up BoardTestsExp
+
+commit 54c398ae3072a5d028b64173bffda2358922b345
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Thu Oct 6 11:58:38 2022 -0600
+
+    Tessa - Set up TestBoard Class
+
+commit 9ccd73b49a2387594c43739b7c68c31213fd53d6
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Wed Oct 5 16:43:30 2022 -0600
+
+    Set up TestBoardCell Class
+
+commit 7a6cfebc923d4b0ff3b097c97a5862a1b13db260
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Wed Oct 5 16:24:30 2022 -0600
+
+    Created Classes for C13A-2
+
+commit af29f12cc77d8dfac5bc3829154a8bb6a2960d8c
+Author: KaleTrails <kale.cassidy@gmail.com>
+Date:   Wed Oct 5 16:18:12 2022 -0600
+
+    Initial Commit

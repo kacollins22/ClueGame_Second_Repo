@@ -14,12 +14,12 @@ Space, Unused, X
 Space, Walkway, W
 
 //People
-Person, Colonel Mustard, YELLOW
-Person, Mrs. White, WHITE
-Person, Mrs. Peacock, BLUE
-Person, Miss Scarlet, RED
-Person, Reverend Green, GREEN
-Person, Professor Plum, PURPLE
+Person, Colonel Mustard, YELLOW,7,0
+Person, Mrs. White, WHITE,5,24
+Person, Mrs. Peacock, BLUE,13,0
+Person, Miss Scarlet, RED,11,24
+Person, Reverend Green, GREEN,20,8
+Person, Professor Plum, PURPLE,20,16
 
 //Weapons
 Weapon, Candle

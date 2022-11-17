@@ -1,5 +1,6 @@
 package clueGame;
 
+import java.awt.Graphics;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -15,11 +16,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
+
+import javax.swing.JPanel;
+
 import java.util.Random;
 
 import experiment.TestBoardCell;
 
-public class Board {
+public class Board extends JPanel {
 	
 	private BoardCell[][] grid;
 	
@@ -123,6 +127,9 @@ public class Board {
 					} else {
 						person = new ComputerPlayer(setupData[1].substring(1), setupData[2].substring(1), false);
 					}
+					//Set current players position
+					person.setPosition(Integer.parseInt(setupData[3]), Integer.parseInt(setupData[4]));
+					//Add person to array
 					players[numPlayer] = person;
 					numPlayer++;
 				//If data is of weaopn type, add weapon card to deck.
@@ -394,6 +401,43 @@ public class Board {
 			if (i >= NUM_PLAYERS) {
 				i = 0;
 			}
+		}
+	}
+	
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
+		
+		g.drawRect(0, 0, 600, 600);
+		g.fillRect(0, 0, 600, 600);
+		
+		int height = 600/numRows;
+		int width = 600/numColumns;
+		
+		//Arrays for Label Cell Draws
+		ArrayList<BoardCell> labelCells = new ArrayList<BoardCell>();
+		
+		//Draw Loop for walkways, rooms, and doors
+		for(int i = 0; i < numRows; i++) {
+			for(int j = 0; j < numColumns; j++) {
+				grid[i][j].draw(g, j*width, i*height, width, height);
+				//If cell is a labelCell, add cell and current offset to arrays
+				if(grid[i][j].isLabel()) {
+					labelCells.add(grid[i][j]);
+				}
+			}
+		}
+		
+		for(Player p : players) {
+			p.drawPlayer(g, width, height);
+		}
+		
+		//Call for label draws after board is drawn so that labels are on top.
+		int currLabel = 0;
+		for(BoardCell cell : labelCells) {
+			Room currRoom = roomMap.get(cell.getInitial());
+			String label = currRoom.getName();
+			cell.drawLabel(g, cell.getCol()*width, cell.getRow()*height, label);
+			currLabel++;
 		}
 	}
     

@@ -1,16 +1,19 @@
 package clueGame;
 
 import java.awt.Color;
+import java.awt.Graphics;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
-public abstract class Player {
-	private String name;
+import javax.swing.JPanel;
+
+public abstract class Player extends JPanel{
+	protected String name;
 	//May switch to string
-	private String color;
-	boolean isHuman;
+	protected String color;
+	protected boolean isHuman;
 	protected int row;
 	protected int column;
 	protected ArrayList<Card> hand;
@@ -81,5 +84,45 @@ public abstract class Player {
 	
 	public String getColor() {
 		return color;
+	}
+	
+	public ArrayList<Card> getHandType(CardType type){
+		ArrayList<Card> handType = new ArrayList<Card>();
+		for(Card card : hand) {
+			if(card.getCardType() == type) {
+				handType.add(card);
+			}
+		}
+		return handType;
+	}
+	
+	public ArrayList<Card> getSeenType(CardType type){
+		ArrayList<Card> seenType = new ArrayList<Card>();
+		for(Card card : seenCards) {
+			if(card.getCardType() == type) {
+				seenType.add(card);
+			}
+		}
+		return seenType;
+	}
+	
+	public Color colorStringToColor() {
+		//A bunch of things that takes the color string from a player and returns a color
+		//associated with them. It's a bit bulky but it works!
+		Color output;
+		if (color.equals("YELLOW")) { output = new Color(255,255,150); }
+		else if (color.equals("RED")) { output = new Color(255,150,150); }
+		else if (color.equals("BLUE")) { output = new Color(150,150,255); }
+		else if (color.equals("GREEN")) { output = new Color(150,255,150); }
+		else if (color.equals("PURPLE")) { output = new Color(198,100,185); }
+		else if (color.equals("WHITE")) { output = new Color(220,220,220); }
+		else { output = new Color(150,150,150); }
+		return output; 
+	}
+	
+	public void drawPlayer(Graphics g, int width, int height) {
+		g.setColor(colorStringToColor());
+		g.drawOval(width*column + 2, height*row + 2, width - 4, height - 4);
+		g.fillOval(width*column + 2, height*row + 2, width - 4, height - 4);
 	}
 }

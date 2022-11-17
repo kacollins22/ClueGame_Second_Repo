@@ -3,6 +3,7 @@ package clueGame;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import javax.swing.*;
 import javax.swing.border.EtchedBorder;
@@ -92,7 +93,7 @@ public class GameControlPanel extends JPanel {
 	}
 	
 	public JPanel createBottomRow() {
-		//Create the lower panel, and set it to a 1x2 layout (1 row, 2 elements
+		//Create the lower panel, and set it to a 1x2 layout (1 row, 2 elements)
 		JPanel bottomPanel = new JPanel();
 		bottomPanel.setLayout(new GridLayout(1,0));
 		JPanel gPanel = createGuessPanel();
